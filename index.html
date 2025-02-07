@@ -1,191 +1,255 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>微波技术基础</title>
+<style type="text/css">
+.style1 {
+	color: #9900FF;
+}
+</style>
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#重要通知">重要通知</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#课件下载">课件下载</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#参考资料">参考资料</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#联系方式">联系方式</a>
-                    </li>
+<body>
 
-                </ul>
-            </div>
-        </div>
-    </nav>
+<table cellpadding="0" cellspacing="0" width="631" height="70">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" width="427">
+		<p align="center"><b><font size="7" color="#008080"><a name="首页"></a>
+		微波技术基础</font></b></td>
+		<td valign="bottom" width="130">
+		<p align="right"><b><font size="4" color="#008000">信息学院 6系</font></b></td>
+		<td height="50" width="88">　</td>
+	</tr>
+</table>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="633" height="35">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td align="center" bgcolor="#66CCFF" width="157"><b><a href="#重要通知">
+		<font color="#000000" size="4">重要通知</font></a></b></td>
+		<td align="center" bgcolor="#66CCFF" width="148"><b><a href="#课件下载">
+		<font color="#000000" size="4">课件下载</font></a></b></td>
+		<td align="center" bgcolor="#66CCFF" width="148"><b><a href="#参考资料">
+		<font color="#000000" size="4">参考资料</font></a></b></td>
+		<td align="center" bgcolor="#66CCFF" height="40" width="180"><b>
+		<a href="#联系方式"><font color="#000000" size="4">联系方式</font></a></b></td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="602" height="475">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" width="600">
+		<p align="center">　</p>
+		<p align="center">
+		<img border="0" src="images/covery.jpg" width="291" height="405"></p>
+		<p align="center">　</td>
+		<td height="475" width="2"></td>
+	</tr>
+</table>
+<p>　</p>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="615" height="35">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="35" width="615">
+		<ul>
+			<li><font color="#008000" size="4"><b><a name="重要通知"></a>通知公告</b></font><b><font color="#008000" size="4">&nbsp;&nbsp;
+			</font><font color="#008000"><a href="#首页">&lt;&lt;返回</a></font></b></li>
+		</ul>
+		</td>
+	</tr>
+</table>
+		<p><b><font face="华文楷体" color="#800080" size="4">上课时间地点：</font></b></p>
+		<p><font color="#3333CC" face="华文楷体" size="4">周老师：3A110: 星期一 (6,7)节;   星期四 (3,4)节 &nbsp;&nbsp;&nbsp;</p>
+		<p><font color="#3333CC" face="华文楷体" size="4">陈老师：3A110: 星期二 (6,7)节;   星期五 (3,4)节 &nbsp;&nbsp;&nbsp;</p>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
+	</tr>
+</table>
+<p>　</p>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="614" height="35">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="35" width="614">
+		<ul>
+			<li><font color="#008000" size="4"><b><a name="课件下载"></a>课件下载</b></font><b><font color="#008000" size="4">&nbsp;&nbsp;
+			</font><font color="#008000"><a href="#首页">&lt;&lt;返回</a></font></b></li>
+		</ul>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="1500" height="120">
+	<!-- MSTableType="layout" -->
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- 重要通知 -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="重要通知">
-        <div class="container px-5">
-            <header>
-                <h2 id="重要通知-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="重要通知-md"></div>
-        </div>
-    </section>
-    <!-- 重要通知 -->
+              <td width="3">　</td>
+		<td valign="top" width="100">
+<!--
+		<a href="_private/wbkj.pdf">微波技术基础课件.pdf</a><p>
+                <a href="_private/wbzy2014.pdf">《微波技术基础》课程作业.pdf</a><p>
+                <a href="_private/zjpp.ppt">支节匹配.ppt</a><p>
+                <a href="_private/zkydnyt.ppt">阻抗与导纳圆图.ppt</a><p>
+                <a href="_private/smithchart.pdf">smithchart.pdf</a><p>
+                <a href="_private/fxzl2018.ppt">微波技术基础复习要求.ppt</a><p>
+-->
 
-    <!-- 课件下载 -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="课件下载">
-        <div class="container px-5">
-            <header>
-                <h2 id="课件下载-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;课件下载</h2>
-            </header>
-            <div class="main-body" id="课件下载-md"></div>
+                <a href="_private/zjpp.ppt">支节匹配.ppt</a><p>
+                <a href="_private/zkydnyt.ppt">阻抗与导纳圆图.ppt</a><p>
+                <a href="_private/smithchart.pdf">smithchart.pdf</a><p>
+	<a href="_private/zhou2022.zip">2022微波技术基础课件（周老师）</a><p>
+	<a href="_private/chen2022.zip">2022微波技术基础课件（陈老师）</a><p>
+	<a href="_private/homework2022.pdf">2022微波技术课程作业</a><p>
+                <td width="400" valign="top">
+		　</td>
 
-        </div>
-    </section>
-    <!-- 课件下载  -->
+             
+        <!--
+	<tr>
+		<td width="31">　</td>
+		<td valign="top" width="215">
+		<a href="_private/zhou2021.zip">2021微波技术基础课件（周老师）</a><p>
+                	<a href="_private/chen2021.pdf">2021微波技术基础课件（陈老师）</a><p>
+                	<a href="_private/homework2021.pdf">2021微波技术基础课程作业 </a><p>
+		<a href="_private/1.pdf">ch01-1.pdf</a><p>
+		<a href="_private/ch01-2.pdf">ch01-2.pdf</a><p>
+		<a href="_private/ch02-1.pdf">ch02-1.pdf</a><p>
+		<a href="_private/ch02-2.pdf">ch02-2.pdf</a><p>
+		<a href="_private/ch02-3.pdf">ch02-3.pdf</a><p>
+		<a href="_private/ch02-4.pdf">ch02-4.pdf</a><p>
+		<a href="_private/ch03-1.pdf">ch03-1.pdf</a><p>
+		<a href="_private/ch03-2.pdf">ch03-2.pdf</a><p>
+		<a href="_private/ch03-3.pdf">ch03-3.pdf</a></td>
+		<td width="223" valign="top">
+		<a href="_private/ch03-4.pdf">ch03-4.pdf</a><p>
+		<a href="_private/ch03-5.pdf">ch03-5.pdf</a><p>
+		<a href="_private/ch04-1.pdf">ch04-1.pdf</a><p>
+		<a href="_private/ch04-2.pdf">ch04-2.pdf</a><p>
+		<a href="_private/ch04-3.pdf">ch04-3.pdf</a><p>
+		<a href="_private/ch04-4.pdf">ch04-4.pdf</a><p>
+		<a href="_private/ch04-5&6.pdf">ch04-5&amp;6.pdf</a><p>
+		<a href="_private/ch05-1.pdf">ch05-1.pdf</a><p>
+		<a href="_private/ch05-2.pdf">ch05-2.pdf</a><p>
+		　</td>
+	<td valign="top" width="215">
+	<p align="left">
+		<a href="_private/ch05-3.pdf">ch05-3.pdf</a><p align="left">
+		<a href="_private/ch05-4&5&7.pdf">ch05-4&amp;5&amp;7.pdf</a><p align="left">
+		<a href="_private/ch06-1.pdf">ch06-1.pdf</a><p align="left">
+		<a href="_private/ch06-2.pdf">ch06-2.pdf</a><p align="left">
+		<a href="_private/ch06-3.pdf">ch06-3.pdf</a><p align="left">
+		<a href="_private/ch06-4.pdf">ch06-<span lang="en-us">4</span>.pdf</a><p align="left">
+		<a href="_private/ch06-5.pdf">ch06-<span lang="en-us">5</span>.pdf</a><p align="left">
+		<a href="_private/ch07-1.pdf">ch07-1.pdf</a><p align="left">
+		<a href="_private/ch07-2.pdf">ch07-2.pdf</a></td>
+	<td valign="top" width="289">
+	<a href="_private/ch07-3&4.pdf">ch07-3、4.pdf</a><p>
+	<a href="_private/ch07-5&7.pdf">ch07-5、7.pdf</a><p>
+	<a href="_private/fuxi.pdf">fuxi.pdf</a></td>
+	<td height="341" width="48">　</td>
+	</tr>
+       -->
+</table>
+<p>　</p>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="620" height="35">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="35" width="620">
+		<ul>
+			<li><b><font color="#008000" size="4"><a name="参考资料"></a>参考资料</font></b><b><font color="#008000" size="4">&nbsp;&nbsp;
+			</font><font color="#008000"><a href="#首页">&lt;&lt;返回</a></font></b></li>
+		</ul>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="621" height="77">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td width="27">　</td>
+		<td valign="top" width="446"><font color="#3333CC">1. </font>
+		<font color="#008080">
+		<a href="_private/wb84.pdf">
+		<font color="#3333CC">微波技术基础_廖承恩_84版.pdf</font></a></font><p>
+		<font color="#3333CC">2. </font>
+		<a href="_private/wb94.pdf">
+		<font color="#3333CC">微波技术基础_廖承恩_94版.pdf</font></a></font><p>
+               
+                <font color="#3333CC">3. </font>
+		<font color="#008080">
+		<a href="_private/jmwb.pdf">
+		<font color="#3333CC">简明微波.pdf</font></a></font><p>
+		
+                <font color="#3333CC">4. </font>
+		<font color="#008080">
+		<a href="_private/wbgc.pdf">
+		<font color="#3333CC">微波工程中文版（第3版）pozar.pdf</font></a></font><p>
+</a></td>
+		
+		<td height="77" width="148">　</td>
+	</tr>
+</table>
+<p>　</p>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="624" height="35">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="35" width="624">
+		<ul>
+			<li><b><font size="4" color="#008000"><a name="联系方式"></a>联系方式&nbsp;&nbsp; 
+			</font><font color="#008000"><a href="#首页">&lt;&lt;返回</a></font></b></li>
+		</ul>
+		</td>
+	</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="625" height="155">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td width="26">　</td>
+		<td valign="top" height="203" width="599"><b>
+		<font color="#800080" face="华文楷体" size="4">主讲教师：</font></b><p>
+		<font face="华文楷体" size="4" color="#3333CC">陈卫东&nbsp;&nbsp;&nbsp;&nbsp; 教授： 科技楼1503室(西楼)&nbsp;&nbsp;&nbsp;&nbsp; </font>
+		<font face="华文楷体" color="#008000" size="4">
+		<a href="mailto:wdchen@ustc.edu.cn"><font color="#3333CC">wdchen@ustc.edu.cn</font></a></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp;&nbsp; 
+		63607705</font></p>
+		<font face="华文楷体" size="4" color="#3333CC">周凌云&nbsp;&nbsp;&nbsp;&nbsp; 副教授： 科技楼1501室(西楼)&nbsp;&nbsp;&nbsp;&nbsp; </font>
+		<font face="华文楷体" color="#008000" size="4">
+		<a href="mailto:wdchen@ustc.edu.cn"><font color="#3333CC">lyzhou@ustc.edu.cn</font></a></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp;&nbsp; 
+		63601325</font></p>
 
-    <!-- 参考资料 -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="参考资料">
-        <div class="container px-5">
-            <header>
-                <h2 id="参考资料-subtitle"><i class="bi bi-award-fill"></i>参考资料 </h2>
-            </header>
-            <div class="main-body" id="参考资料-md"></div>
-
-        </div>
-    </section>
-    <!-- 参考资料 -->
-
-    <!-- 联系方式 -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="联系方式">
-        <div class="container px-5">
-            <header>
-                <h2 id="联系方式-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;联系方式</h2>
-            </header>
-            <div class="main-body" id="联系方式-md"></div>
-
-        </div>
-    </section>
-    <!-- 联系方式  -->
+		<p><b><font face="华文楷体" color="#800080" size="4">课程实验教师：</font></b></p>
+<font face="华文楷体" size="4" color="#3333CC">王百宗&nbsp;&nbsp;&nbsp;&nbsp;  电三楼 806室 &nbsp;&nbsp;&nbsp;&nbsp; </font>
+		<font face="华文楷体" color="#008000" size="4">
+		<a href="mailto:wbzong@ustc.edu.cn"><font color="#3333CC">wbzong@ustc.edu.cn</font></a></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp;&nbsp; 
+		63601322</font></p>
+<font face="华文楷体" size="4" color="#3333CC">张&nbsp;&nbsp;&nbsp;&nbsp;祥&nbsp;&nbsp;&nbsp;&nbsp;   电三楼 806室  &nbsp;&nbsp;&nbsp;&nbsp; </font>
+		<font face="华文楷体" color="#008000" size="4">
+		<a href="mailto:xiangzh@ustc.edu.cn"><font color="#3333CC">xiangzh@ustc.edu.cn</font></a></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp;&nbsp; 
+		</font></p>
 
 
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
+		<p><b><font face="华文楷体" color="#800080" size="4">助教：</font></b></p>
+		<p><font color="#3333CC" face="华文楷体" size="4">丁宇航：科技实验楼(西楼)1502&nbsp;&nbsp;&nbsp; 
+		<a href="mailto:jsyqx@mail.ustc.edu.cn">sa20219006@mail.ustc.edu.cn</a></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp;&nbsp; 13201581725</font></p>
+                 
+		<p><font face="华文楷体" size="4" color="#3333CC">孙明明</font><font face="华文楷体" size="4"><font color="#3333CC">：科技实验楼(西楼)1502&nbsp;&nbsp;&nbsp; 
+		<a href="mailto:caing@mail.ustc.edu.cn">sunmingming@mail.ustc.edu.cn</a></font></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp; 19826556356</font></p>
+                
+		<p><font face="华文楷体" size="4" color="#3333CC">王静文</font><font face="华文楷体" size="4"><font color="#3333CC">：科技实验楼(西楼)1502&nbsp;&nbsp;&nbsp; 
+		<a href="mailto:caing@mail.ustc.edu.cn">wangjingwen@mail.ustc.edu.cn</a></font></font><font face="华文楷体" size="4" color="#3333CC">&nbsp;&nbsp;&nbsp; 13770929590</font></p>
+	        </font></td>
+	</tr>
+</table>
+<p>　</p>
+<hr color="#66CCFF" size="4">
+<table cellpadding="0" cellspacing="0" width="620" height="5">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td valign="top" height="5" width="620"><font face="Times New Roman">
+		Copyright &copy; 中科院电磁空间信息重点实验室</font></td>
+	</tr>
+</table>
 
 </body>
 
